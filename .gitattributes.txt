@@ -1,0 +1,13 @@
+# Ensure all source files use LF endings
+*.c     text eol=lf
+*.h     text eol=lf
+*.cpp   text eol=lf
+*.hpp   text eol=lf
+
+# Scripts should also use LF
+*.sh    text eol=lf
+*.py    text eol=lf
+
+# Windows batch files can keep CRLF
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
